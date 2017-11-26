@@ -1,0 +1,40 @@
+.bg_gray {
+    background-color: rgb(221, 221, 221);
+    padding: 12px;
+}
+
+#navbar {
+    background: black;
+    text-align: center;
+    padding: 1px;
+    color: white;
+    margin-top: 6px;
+    margin-bottom: 30px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+p {
+    text-align: center;
+    padding: 16px 8px;
+    margin: 10px auto;
+}
+
+.p_1 {
+    color: blue;
+}
+
+.p_2 {
+    color: green;
+}
+
+.p_3 {
+    color: yellow;
+}
+
+.bg_tomato{
+    background-color: tomato;
+}
