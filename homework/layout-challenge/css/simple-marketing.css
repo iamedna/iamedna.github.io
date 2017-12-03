@@ -1,0 +1,45 @@
+header, 
+footer {
+    height: 100px;
+}
+
+ 
+section, 
+aside {
+    height: 300px;
+}
+
+header {
+    background: red;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first section {
+    background: green;
+    width: 49%;
+    
+}
+
+.second {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.second section {
+    background: blue;
+    width: 32.4%;
+}
+
+
+footer {
+    background: yellow;
+}
+
+.space {
+    margin-top: 20px;
+}

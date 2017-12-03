@@ -1,0 +1,118 @@
+
+main {
+    height: 600px;
+    margin-top: 15px;
+}
+
+#boxes {
+    height: 400px;
+    display: flex;
+    justify-content:space-between;
+    margin-top: 15px;
+}
+
+nav {
+    height: 100px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo{
+    width: 20%;
+    height: 300px;
+    background-image: url(../images/katie-treadway-253591.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+nav {
+    height: 100px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+#nav-1 {
+    width: 24%;
+    background-image: url(../images/ethan-robertson-134952.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#nav-2 {
+    width: 24%;
+    background-image: url(../images/sebastien-gabriel-182791.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#nav-3 {
+    width: 24%;
+    background-image: url(../images/arno-smit-141735.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#nav-4 {
+    width: 24%;
+    background-image: url(../images/fede-casanova-226481.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+main {
+    display: flex;
+}
+
+#image-1 {
+    width: 100%;
+    background-image: url(../images/ishan-seefromthesky-403804.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#box-1{
+    height: 400px;
+    width: 32.6%;
+    background-image: url(../images/tung-le-ba-386449.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#box-2{
+    height: 400px;
+    width: 32.6%;
+    background-image: url(../images/jakob-owens-209002.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#box-3{
+    height: 400px;
+    width: 32.6%;
+    background-image: url(../images/atlas-green-82865.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+footer {
+    height: 300px;
+    width: 100%;
+    margin-top: 15px;
+    background-image: url(../images/matthew-kane-278419.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
