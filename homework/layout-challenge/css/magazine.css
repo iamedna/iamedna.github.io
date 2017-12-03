@@ -1,0 +1,159 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo{
+    width: 20%;
+    height: 300px;
+    background-image: url(../images/adam-birkett-174653.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+nav {
+    height: 100px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+#nav-1 {
+    width: 24%;
+    background-image: url(../images/simone-hutsch-423666.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#nav-2 {
+    width: 24%;
+    background-image: url(../images/simone-hutsch-400259.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+}
+
+#nav-3 {
+    width: 24%;
+    background-image: url(../images/simone-hutsch-400257.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+}
+
+#nav-4 {
+    width: 24%;
+    background-image: url(../images/simone-hutsch-384853.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+}
+
+main {
+    height: 800px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+aside {
+    width: 30%;
+    margin-right: 15px;
+    background-image: url(../images/logan-troxell-9187.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#content {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+#section-1 {
+    height: 25%;
+    background-image: url(../images/jean-philippe-delberghe-430713.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+}
+
+#section-2 {
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+#left {
+    width: 76%;
+    margin-right: 15px;
+    background-image: url(../images/dmitri-popov-71519.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#right {
+    width: 24%;
+    background-image: url(../images/ng-85873.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#section-3 {
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+#box-1 {
+    width: 25%;
+    margin-right: 15px;
+    background-image: url(../images/simone-hutsch-384766.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+}
+
+#box-2 {
+    width: 25%;
+    margin-right: 15px;
+    background-image: url(../images/simone-hutsch-384823.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+}
+
+#box-3 {
+    width: 25%;
+    margin-right: 15px;
+    background-image: url(../images/simone-hutsch-384830.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+}
+
+#box-4 {
+    width: 25%;
+    background-image: url(../images/simone-hutsch-384848.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+}
+
+footer {
+    height: 250px;
+    width: 100%;
+    margin-top: 15px;
+    background-image: url(../images/joshua-sortino-228788.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
