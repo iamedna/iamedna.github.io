@@ -1,27 +1,27 @@
-$('#clickCelsius').click( function (){
-    var celsius = $('#celsiusOne').val();
-    var resultFahrenheit = (celsius * 9) / 5 +32;
-    $('#fahrenheitOne').val(resultFahrenheit);
+$(document).ready(function(){
     
-    console.log (resultFahrenheit);
-})
+    $('#convert').click(function(){
 
-$('#clickFahrenheit').click( function (){
-    var fahrenheit = $('#fahrenheitTwo').val();
-    var resultCelsius = ((fahrenheit -32) * 5) / 9;
-    $('#celsiusTwo').val(resultCelsius);
+        var celInput = $('#c-input').val();
+        var farInput = $('#f-input').val();
+        
+        var farOutput = celInput * 9 / 5 +32;
+        var celOutput = (farInput - 32) *5 /9;
+
+        if( isNaN(celInput || farInput)){
+            alert('Please type a number!');
+            
+        } else if ( !isNaN(celInput || farInput)) {
+            
+            $('#f-input').val(farOutput);
+            $('#c-input').val(celOutput);
+        } 
+          
+    })
     
-    console.log (resultCelsius);
-})
+    
+     //clear input elements
+    //  $('#c-input').val('');
+    //  $('#f-input').val(''); 
+});
 
-// $('#click').click( function (){
-//     var celsius = $('#celsius').val();
-//     var fahrenheit = $('#fahrenheit').val();
-
-//     var resultFahrenheit = (celsius * 9) / 5 +32;
-//     var resultCelsius = ((fahrenheit -32) * 5) / 9;
-//     $('#celsius').val(resultCelsius);
-//     $('#fahrenheit').val(resultFahrenheit);
-
-//     console.log (resultCelsius);
-// })
