@@ -17,6 +17,14 @@ body {
 }
 
 
+.header-index {
+    color: #010205;
+}
+
+.footer-index {
+    color: #010205;
+}
+
 h1 {
     font-size: 24px;
     font-weight: 900;
@@ -31,6 +39,13 @@ h1 {
     
 }
 
+.header-index_a{
+    color: inherit;
+}
+
+.footer-index_a {
+    color: inherit;
+}
 .contact {
     position: fixed;
     left: 20px;
@@ -79,6 +94,13 @@ img {
     top: 2%;
 }
 
+.header-info {
+    color: #fff;
+}
+
+.header-info_a{
+    color: inherit;
+}
 
 /* contact page style */
 .email {
@@ -92,6 +114,13 @@ img {
     top: 80%;
 }
 
+.header-contact {
+    color: #fff;
+}
+
+.header-contact_a {
+    color: inherit;
+}
 
 
 

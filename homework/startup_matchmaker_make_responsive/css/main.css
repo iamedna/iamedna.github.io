@@ -174,10 +174,52 @@ footer {
 	/* have elements inside of header stack on top of eachother */
 	/* give the header nave a margin top of 20px and have the elements start from the left instead of right */
 	/* change the padding of header nav links so it is on the right instead of left */
+@media screen and (max-width: 1000px) {
+	body {
+		width: 80%;
+	}
 
+	header {
+		display: block;
+	}
+
+	.header-nav {
+		margin-top: 20px;
+		display: flex;
+		justify-content: flex-start;
+	}
+
+	.header-nav__a {
+		padding-right: 20px;
+	}
+}
 /* Small screens and smaller - less than 550px*/
 	/* give body a width of 100% */
 	/* don't have header nav be display flex */
 	/* center the content inside banner */
 	/* have the touts stack on top of eachother */
 	/* make each tout full width using percent width. you may need to use the border-box property to prevent the padding from the tout's padding cause an overflow of content. get rid of borders on the tout */
+@media screen and (max-width: 700px) {
+	body {
+		width: 100%;
+	}
+
+	.header-nav {
+		display: inline-block;
+	}
+
+	.blurb {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.touts {
+		display: block;
+	}
+
+	.tout {
+		width: 100%;
+		border: 0;
+		box-sizing: border-box;
+	}
+}

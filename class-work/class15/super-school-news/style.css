@@ -1,6 +1,7 @@
 .container {
-  width: 960px;
+  width: 85%;
   margin: 0 auto;
+  
 }
 
 header {
@@ -27,19 +28,28 @@ header nav a {
 
 section {
   background-color: black;
+  display: flex;
+  justify-content: space-between;
+  
 }
 
 article {
   background-color: white;
   /* we will talk about flex-shrink and flex-grow next! */
-  flex-shrink: 0;
-  flex-grow: 0;
+  flex-shrink: 1;
+  flex-grow: 1;
+  width: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 /* targets the 1st article; nth-child(2) would target the 2nd article*/
-article:nth-child(1) {
+/* article:nth-child(1) {
   margin-right: 10px;
-}
+} */
 
 article h1 {
   font-size: 20px;
