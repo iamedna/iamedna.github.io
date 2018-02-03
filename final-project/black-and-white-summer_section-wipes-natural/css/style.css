@@ -1,0 +1,241 @@
+body {
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    
+
+}
+
+#overlay-contact {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #010205; /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: url('../img/close.png'), auto; /* Add a pointer on hover */
+}
+
+#overlay-info {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #010205; /* Black background with opacity */
+    z-index: 3; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: url('../img/close.png'), auto; /* Add a pointer on hover */
+}
+
+button {
+    background: none;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    font-size: 24px;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    cursor: pointer;
+
+}
+
+.button-contact {
+    left: -2%;
+    top: 87%;
+    transform: rotate(270deg);
+}
+
+.button-info {
+    right: 0.1%;
+    top: 5.6%;
+    transform: rotate(90deg);
+}
+
+.black-bg{
+    background-color: #010205;
+}
+
+
+
+.container {
+    max-width: 70%;
+    height: 80%;
+    margin: 0 auto;
+}
+
+
+.header-index {
+    color: #010205;
+}
+
+.footer-index {
+    color: #010205;
+}
+
+
+h1 {
+    font-size: 24px;
+    font-weight: 900;
+    margin: 0;
+    display: inline-block;
+}
+
+.logo {
+    position: fixed;
+    left: 20px;
+    top: 2%;
+    
+}
+
+.header-index_a{
+    color: inherit;
+}
+
+.footer-index_a {
+    color: inherit;
+}
+.contact {
+    position: fixed;
+    left: 20px;
+    top: 80%;
+    -webkit-writing-mode: vertical-lr;
+    -ms-writing-mode: tb-lr;
+    writing-mode: vertical-lr;
+    text-orientation: sideways;
+    transform: rotate(180deg);
+}
+
+.info {
+    position: fixed;
+    right: 20px;
+    top: 3.2%;
+    -webkit-writing-mode: vertical-lr;
+    -ms-writing-mode: tb-lr;
+    writing-mode: vertical-lr;
+    text-orientation: sideways;
+}
+
+.number {
+    position: fixed;
+    right: 20px;
+    top: 94%;
+    cursor: pointer;
+}
+
+.panel {
+    height: 100%;
+    width: 100%;
+}
+
+img {
+    
+    display: block;
+    margin: 0 auto;
+}
+
+.padding-bottom {
+    padding-bottom: 160px;
+}
+
+.img-001 {
+    margin-top: 8%;
+}
+
+
+
+.stickytop {
+    position:fixed;
+    top:10%;
+}
+
+/* info page style */
+
+.info-para {
+    color: #fff;
+    max-width: 45%;
+    font-size: 1.75rem;
+    line-height: 1.618;
+    font-weight: 700; 
+    position: fixed;
+    right: 8%;
+    top: 2%;
+}
+
+.header-info {
+    color: #fff;
+}
+
+.header-info_a{
+    color: inherit;
+}
+
+#info-page{
+     
+    cursor: none;
+}
+
+
+/* .x {
+    width: 100%;
+    height: 100%;
+    cursor: url('../img/close.png'), auto;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    z-index: 1;
+    border: 25px solid red;
+} */
+
+
+
+/* contact page style */
+.email {
+    color: #fff;
+    width: 45%;
+    font-size: 1.75rem;
+    line-height: 1.618;
+    font-weight: 700; 
+    position: fixed;
+    left: 2%;
+    top: 80%;
+}
+
+.header-contact {
+    color: #fff;
+}
+
+.header-contact_a {
+    color: inherit;
+}
+
+
+
+a:link, a:visited{
+    
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.white-text{
+    color: #fff;
+}
+
+
+.invert {
+    background-color: #010205;
+    color: #fff;
+}
+
+
