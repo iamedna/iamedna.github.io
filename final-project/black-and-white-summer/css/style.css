@@ -1,0 +1,307 @@
+body {
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.6px;
+}
+
+
+/* Overlay style */
+
+button {
+    background: none;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.6px;
+    font-size: 25px;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    cursor: pointer;
+}
+
+button:hover {
+    text-decoration: underline;
+}
+.black-bg{
+    background-color: #010205;
+}
+
+
+/* Overlay-info style */
+
+#overlay-info {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #010205; /* Black background with opacity */
+    z-index: 4; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: url('../img/close.svg'), auto; /* Add a pointer on hover */
+}
+
+.button-info {
+    right: 0.01%;
+    top: 5.4%;
+    transform: rotate(90deg);
+}
+
+.info-para {
+    color: #fff;
+    max-width: 45%;
+    font-size: 1.75rem;;
+    line-height: 1.618;
+    font-weight: 700; 
+    position: fixed;
+    right: 8%;
+    top: 3%;
+}
+
+
+/* Overlay-contact style */
+
+#overlay-contact {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #010205; /* Black background with opacity */
+    z-index: 3; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: url('../img/close.svg'), auto; /* Add a pointer on hover */
+}
+
+.button-contact {
+    left: -2.3%;
+    top: 87%;
+    transform: rotate(270deg);
+}
+
+.email {
+    color: #fff;
+    width: 45%;
+    font-size: 1.75rem;;
+    line-height: 1.618;
+    font-weight: 700; 
+    position: fixed;
+    left: 2%;
+    top: 80%;
+}
+
+/* Overlay-invert style */
+
+#overlay-info.overlay-invert, #overlay-contact.overlay-invert {
+    background-color: #fff;
+    color: #010205;
+    cursor: url('../img/close-black.svg'), auto;
+}
+
+p.overlay-text-invert, p.overlay-text-invert a, a.overlay-text-invert {
+    color: #010205;
+}
+
+
+/* Container and Image style */
+
+.container {
+    max-width: 70%;
+    height: 80%;
+    margin: 0 auto;
+}
+
+#moveup, #movedown {
+    position: fixed;
+    height: 48%;
+    width: 88%;
+    opacity: .3;
+    z-index: 2;
+}
+
+#moveup {
+    top: 7%;
+    right: 5.5%;
+    cursor: n-resize;
+}
+
+#movedown {
+    bottom: 7%;
+    right: 4.5%;
+    cursor: s-resize;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 25%;
+}
+
+.bw-img {
+    margin-top: 10%;
+}
+
+
+/* Header and footer style */
+
+.header-index {
+    color: #010205;
+}
+
+.footer-index {
+    color: #010205;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: 900;
+    margin: 0;
+    display: inline-block;
+}
+
+.logo {
+    position: fixed;
+    left: 20px;
+    top: 2%;
+}
+
+.header-index_a{
+    color: inherit;
+}
+
+.number {
+    position: fixed;
+    right: 20px;
+    top: 94%;
+    cursor: pointer;
+}
+
+.number:hover {
+    text-decoration: underline;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.white-text{
+    color: #fff;
+}
+
+.invert {
+    background-color: #010205;
+    color: #fff;
+}
+
+
+ /* MEDIA QUERIES */
+
+/* Medium screens and smaller smaller - less than 1028px and larger than 768px */
+@media screen and (min-width: 768px) and (max-width: 1028px){
+    img {
+        width: 85%;
+        height: 85%;
+        margin-bottom: 35%;
+    }
+
+    .container {
+        padding-top: 5%;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    button {
+        font-size: 22px;
+    }
+
+    .button-info {
+        right: 0.01%;
+        top: 4.7%;
+        transform: rotate(90deg);
+    }
+
+    .button-contact {
+        left: -2.8%;
+        top: 88%;
+        transform: rotate(270deg);
+    }
+
+    .info-para {
+        font-size: 20px;
+        margin-top: 5%;
+    }
+    .email {
+        font-size: 20px;
+    }
+
+}
+
+/* Medium screens and smaller smaller - less than 768px */
+@media screen and (max-width: 767px) {
+    img {
+        width: 70%;
+        height: 70%;
+        margin-bottom: 55%;
+    }
+
+    .container {
+        padding-top: 25%;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    button {
+        font-size: 18px;
+    }
+
+    .button-info {
+        right: 0.1%;
+        top: 4.3%;
+        transform: rotate(90deg);
+    }
+
+    .button-contact {
+        left: -3%;
+        top: 89%;
+        transform: rotate(270deg);
+    }
+
+    .info-para {
+        font-size: 16px;
+        margin-top: 10%;
+        max-width: 55%;
+    }
+    .email {
+        font-size: 16px;
+    }
+}
+
+
+/* Medium screens and smaller smaller - less than 500px */
+@media screen and (max-width: 500px) {
+    .info-para {
+        font-size: 16px;
+        margin-top: 15%;
+        max-width: 65%;
+    }
+}
+
+/* Medium screens and smaller smaller - less than 320px */
+@media screen and (max-width: 320px) {
+    .logo {
+        max-width: 250px;
+    }
+}
