@@ -59,6 +59,7 @@ button:hover {
     position: fixed;
     right: 8%;
     top: 3%;
+    text-indent: -13px;
 }
 
 
@@ -240,6 +241,7 @@ a:hover {
     .info-para {
         font-size: 20px;
         margin-top: 5%;
+        text-indent: -8px;
     }
     .email {
         font-size: 20px;
@@ -283,6 +285,7 @@ a:hover {
         font-size: 16px;
         margin-top: 10%;
         max-width: 55%;
+        text-indent: -7px;
     }
     .email {
         font-size: 16px;
@@ -296,6 +299,14 @@ a:hover {
         font-size: 16px;
         margin-top: 15%;
         max-width: 65%;
+    }
+
+    #moveup {
+        right: 7.5%;
+    }
+
+    #movedown {
+        right: 2%;
     }
 }
 
